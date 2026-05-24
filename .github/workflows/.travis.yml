@@ -1,0 +1,9 @@
+dist: focal
+
+language: java
+
+script:
+  - javac Hello.java
+  - java Hello
+
+install: skip
